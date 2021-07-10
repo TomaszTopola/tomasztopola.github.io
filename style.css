@@ -31,6 +31,11 @@ a {
 
 /* ARTICLE SPECIFIC */
 
+.article{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 .section-header{
     margin-top: 40px;
     margin-bottom: 15px;
@@ -39,8 +44,6 @@ a {
     text-transform: uppercase;
 }
 .link-btn {
-    margin-right: 10%;
-    margin-left: 10%;
     margin-top: 10px;
     font-size: 20px;
     background-color: #62727b;
