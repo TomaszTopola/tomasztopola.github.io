@@ -63,6 +63,7 @@ a{
     background-color: #b4ffff;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
+    transition: background-color 0.3s;
 }
 .link-btn:hover{
     background-color: #4bacb8;
