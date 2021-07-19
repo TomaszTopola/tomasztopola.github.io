@@ -1,8 +1,8 @@
 /* GLOBAL */
-html {
+html{
     height: 100%;
 }
-body {
+body{
     margin: 0;
     height: 100%;
 }
@@ -42,18 +42,12 @@ a{
 .bio{
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 40px;
+    padding: 20px 10px 40px;
 }
 
 /* ARTICLE */
 .article{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 20px 10% 40px;
 }
 .article-header{
     padding-top: 20px;
@@ -66,12 +60,13 @@ a{
     margin-top: 15px;
     padding: 15px;
     text-align: center;
-    background-color: #B4FFFF;
+    background-color: #b4ffff;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
+    transition: background-color 0.3s;
 }
 .link-btn:hover{
-    background-color: #4BACB8;
+    background-color: #4bacb8;
 }
 
 /* FOOTER */
@@ -96,7 +91,7 @@ a{
 }
 
 /* TABLET */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
     /* LEFT SIDEBAR */
     .left-sidebar{
         padding: 0;
@@ -131,10 +126,7 @@ a{
         overflow: auto;
     }
     .article-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding: 50px 10%;
     }
     .article-header{
         font-size: 20px;
@@ -147,10 +139,9 @@ a{
     .footer-left{
         display: block;
     }
-    /* ARTICLE */
 } 
 
-@media only screen and (min-width: 748px) {
+@media only screen and (min-width: 748px){
     .left-sidebar{
         width: 25%;
     }
