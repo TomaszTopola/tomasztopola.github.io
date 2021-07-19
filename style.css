@@ -1,8 +1,8 @@
 /* GLOBAL */
-html {
+html{
     height: 100%;
 }
-body {
+body{
     margin: 0;
     height: 100%;
 }
@@ -96,7 +96,7 @@ a{
 }
 
 /* TABLET */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
     /* LEFT SIDEBAR */
     .left-sidebar{
         padding: 0;
@@ -150,7 +150,7 @@ a{
     /* ARTICLE */
 } 
 
-@media only screen and (min-width: 748px) {
+@media only screen and (min-width: 748px){
     .left-sidebar{
         width: 25%;
     }
