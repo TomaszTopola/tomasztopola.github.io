@@ -42,18 +42,12 @@ a{
 .bio{
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 40px;
+    padding: 20px 10px 40px;
 }
 
 /* ARTICLE */
 .article{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 20px 10% 40px;
 }
 .article-header{
     padding-top: 20px;
@@ -131,10 +125,7 @@ a{
         overflow: auto;
     }
     .article-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding: 50px 10%;
     }
     .article-header{
         font-size: 20px;
@@ -147,7 +138,6 @@ a{
     .footer-left{
         display: block;
     }
-    /* ARTICLE */
 } 
 
 @media only screen and (min-width: 748px){
