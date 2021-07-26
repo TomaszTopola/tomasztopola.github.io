@@ -61,7 +61,7 @@ a{
     border-radius: 10px;
     background-color: rgba(214, 49, 137, 0.25);
     padding: 10px 0px;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
 }
 .back-to-techtok:hover{
     background-color: rgba(156, 0, 119, 0.25);
@@ -90,7 +90,7 @@ a{
     background-color: rgba(214, 49, 137, 0.25);
     border: #D63189 2px solid;
     border-radius: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
 }
 .link-btn:hover{
     background-color: rgba(156, 0, 119, 0.25);
