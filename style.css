@@ -5,23 +5,25 @@ html{
 body{
     margin: 0;
     height: 100%;
+    background-color: #252A36;
+    color: #ffffff;
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 #container{
     height: 100%;
 }
 /* PROFILE INFO */
 .left-sidebar{
-    background-color: #fff8e1;
+    background-color: #3a4254;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .avatar{
-    border-radius: 50%;
+    border-radius: 99999999px;
     overflow: hidden;
     margin-right: 30%;
     margin-left: 30%;
@@ -32,6 +34,7 @@ a{
     transform: scale(1.1);
 }
 .username{
+    color: #D63189;
     font-size: 38px;
     font-family: 'Encode Sans SC', sans-serif;
     font-weight: 400;
@@ -41,8 +44,27 @@ a{
 }
 .bio{
     text-align: justify;
+    font-size: 15px;
     font-family: 'Quicksand', sans-serif;
     padding: 20px 10px 40px;
+}
+.back-to-techtok{
+    text-transform: uppercase;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 14px;
+    border: #D63189 2px solid;
+    border-radius: 10px;
+    background-color: rgba(214, 49, 137, 0.25);
+    padding: 10px 0px;
+    transition: background-color 0.3s;
+}
+.back-to-techtok:hover{
+    background-color: rgba(156, 0, 119, 0.25);
 }
 
 /* ARTICLE */
@@ -50,30 +72,35 @@ a{
     padding: 20px 10% 40px;
 }
 .article-header{
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'Encode Sans SC', sans-serif;
 }
+.article-header.top{
+    padding-top: 20px
+}
 .link-btn{
     margin-top: 15px;
     padding: 15px;
     text-align: center;
-    background-color: #b4ffff;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
+    background-color: rgba(214, 49, 137, 0.25);
+    border: #D63189 2px solid;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 .link-btn:hover{
-    background-color: #4bacb8;
+    background-color: rgba(156, 0, 119, 0.25);
 }
 
 /* FOOTER */
 .footer{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    background-color: #fff8e1;
+    background-color: #3a4254;
     padding-bottom: 20px;
 }
 .footer-left{
@@ -103,7 +130,7 @@ a{
 	    overflow: auto;
     }
     .avatar{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .username{
         padding-left: 10px;
@@ -113,6 +140,9 @@ a{
     .bio{
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .back-to-techtok{
+        margin: 40px 10%;
     }
 
     /* ARTICLE */
@@ -158,14 +188,14 @@ a{
     }
 
     .article-content{
-        padding-right: 20%;
-        padding-left: 20%;
+        padding-right: 30%;
+        padding-left: 30%;
         padding-bottom: 50px;
     }
     .article-header{
         font-size: 24px;
     }
     .link-btn{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
