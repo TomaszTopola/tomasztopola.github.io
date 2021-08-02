@@ -35,6 +35,16 @@
         gtag('config', 'G-XDZ0YPY89H');
     </script>
 
+    <script>
+        function allowCookies(){
+            document.getElementById('simple-cookie-consent').style.display = 'none';
+        }
+
+        function denyCookies(){
+
+        }
+    </script>
+
     <title>Tomek Topoła | Moje linki</title>
 </head>
 <body>
@@ -120,6 +130,23 @@
                         <div class="link-btn">Tellonym</div>
                     </a>
                 </article>
+
+                <div id="simple-cookie-consent">
+                    <div class="cookie-consent-container">
+                        <div class="cookie-consent-notice">
+                            <div class="article-header">Korzystamy z Cookies</div>
+                            <div class="bio">Aby dostarczyć jak najwyższej jakośći, spersonalizowane treści, nasza strona korzysta z plików cookies.
+                                Zbieramy dane na potrzeby Google Analytics. Dowiedz się więcej czytając naszą 
+                                <a href="#" id="privacy-policy-link">politykę prywatnośći</a>.
+                            </div>
+                        </div>
+                        <div class="cookie-consent-selection">
+                            <button onClick="denyCookies()" class="cookie-consent-deny">Używaj tylko wymaganych</button>
+                            <button onClick="allowCookies()" class="cookie-consent-allow">Pozwól na wszystkie</button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
 
