@@ -28,20 +28,21 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XDZ0YPY89H"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-XDZ0YPY89H');
-    </script>
-
-    <script>
         function allowCookies(){
             document.getElementById('simple-cookie-consent').style.display = 'none';
+            enableCookies();
         }
 
         function denyCookies(){
+            window['ga-disable-G-XDZ0YPY89H'] = true;
+            document.getElementById('simple-cookie-consent').style.display = 'none';
+        }
 
+        function enableCookies(){
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XDZ0YPY89H');
         }
     </script>
 
