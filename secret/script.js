@@ -14,6 +14,10 @@ function contact(){
     location.href = "contact.html"
 }
 
+function home(){
+    location.href = "index.html"
+}
+
 function showImageFulscreen(path){
     document.getElementById('fulscreen-image').src = path
     cards = document.getElementsByClassName('article-card');
