@@ -25,6 +25,7 @@ body{
     min-height: 80vh;
     background-color: var(--content);
     padding: 20px 5%;
+    text-align: justify;
 }
 .container{
     margin: 0;
